@@ -1,3 +1,5 @@
+NOTE: The thesis is still work in progress. I plan on releasing the report and source code towards middle or end of August 2016.
+
 # ZynqNet: A FPGA-Accelerated Embedded Convolutional Neural Network
 
 This repository contains the results from my Master Thesis.
