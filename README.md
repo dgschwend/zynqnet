@@ -18,3 +18,6 @@ The CNN analysis tool can be found in a separate repository here: [dgschwend/net
 ## High-Level Synthesis Source Code for FPGA accelerator
 The C/C++ source code for building the FPGA accelerator using High-Level Synthesis (Vivado HLS) can be found under "HLS"
 
+## Copyright and License
+ZynqNet is Copyright 2016 by David Gschwend.
+All files in this repository are released under the GNU General Public License as found in the LICENSE file.
