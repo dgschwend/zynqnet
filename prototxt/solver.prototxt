@@ -1,0 +1,21 @@
+# ZynqNet CNN for Image Classification on ImageNet
+# Copyright 2016 David Gschwend, released under the GNU General Public License
+
+#### ZYNQNET SOLVER, for training on 2 Titan X GPUs
+## 60 Epochs, 6x Augmented ImageNet Dataset
+
+test_iter: 196
+test_interval: 30028
+base_lr: 0.05
+display: 20
+max_iter: 1801680
+lr_policy: "poly"
+power: 1.0
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 150140
+snapshot_prefix: "snapshot"
+solver_mode: GPU
+random_seed: 42
+net: "train_val.prototxt"
+solver_type: SGD
