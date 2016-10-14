@@ -1,6 +1,10 @@
 # ZynqNet: An FPGA-Accelerated Embedded Convolutional Neural Network
 
-This repository contains the results from my Master Thesis. The project has been enabled and supported by [Supercomputing Systems AG](http://www.scs.ch).
+This repository contains the results from my Master Thesis.
+
+![Top-Level Overview of the Master Thesis](https://github.com/dgschwend/zynqnet/raw/master/toplevel_project_overview.jpg)
+
+The project has been enabled and supported by [Supercomputing Systems AG](http://www.scs.ch).
 
 ## Abstract
 
