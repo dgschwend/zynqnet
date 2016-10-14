@@ -13,6 +13,7 @@ The report includes
 - detailed description of the [*Netscope CNN Analyzer* tool]([https://github.com/dgschwend/netscope)
 - overview of CNN analysis and optimization techniques
 - detailed report on the design and implementation of the FPGA-based accelerator
+
 The final report can be found in "zynqnet_report.pdf"
 
 ## ZynqNet CNN: An efficient, optimized architecture for image classification on ImageNet (ILSVRC)
