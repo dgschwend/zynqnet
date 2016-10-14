@@ -1,0 +1,11 @@
+net,"err [top5, %]",size [MB],"acc [top5, %]","acc [top1, %]",ops [billion],size efficiency (%/MB),comp efficiency (%/bn-ops),bad features,comment,
+AlexNet,19.7,240,80.3,57.2,16.0,0.3,5.0,FC,,https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet
+SqueezeNet,19.5,4.8,80.5,57.5,0.8,16.8,100.6,,,http://arxiv.org/abs/1602.07360
+SqueezeNetMini,19.5,0.6,80.5,57.5,0.8,134.2,100.6,,Deep Compression Pipeline,http://arxiv.org/abs/1602.07360
+SqueezeNet++,17.0,6.28,83.0,61.1,0.5,13.2,166.0,,SqueezeNet v1.1 AllPoolToSq3x3S2,
+NiN,17.7,31,82.3,60.2,2.1,2.7,39.8,,,http://arxiv.org/pdf/1410.0736.pdf
+InceptionV1,11.1,53.5,88.9,68.7,1.5,1.7,59.3,"FC, LRN",GoogleNet,http://arxiv.org/pdf/1512.00567v3.pdf
+VGG-16,9.9,553,90.1,71.5,36.9,0.2,2.4,FC,,https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md
+InceptionV2,7.8,52,92.2,74.8,3.8,1.8,24.3,BN,BN-Inception,http://arxiv.org/pdf/1512.00567v3.pdf
+ResNet-101,6.2,409,93.8,76.0,27.3,0.2,3.4,FC,,https://github.com/facebook/fb.resnet.torch
+InceptionV3,5.6,85,94.4,78.8,4.8,1.1,19.7,"FC, BN",,http://arxiv.org/pdf/1512.00567v3.pdf
