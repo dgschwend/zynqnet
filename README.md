@@ -70,7 +70,7 @@ The report includes
 The final report can be found in [zynqnet_report.pdf](https://github.com/dgschwend/zynqnet/tree/master/zynqnet_report.pdf).
 
 ## ZynqNet CNN
-The fully trained CNN with .prototxt network description and pretrained weights can be found under "_TRAINED_MODEL"
+The fully trained CNN with .prototxt network description and pretrained weights can be found under [_TRAINED_MODEL](https://github.com/dgschwend/zynqnet/tree/master/_TRAINED_MODEL)
 
 ## ZynqNet FPGA Accelerator
 The C/C++ source code for building the FPGA accelerator using High-Level Synthesis (Vivado HLS) can be found under [_HLS_CODE](https://github.com/dgschwend/zynqnet/tree/master/_HLS_CODE).
