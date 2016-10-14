@@ -2,7 +2,7 @@
 
 ### Net Comparison
 
-ZynqNet CNN is derived from [SqueezeNet](https://github.com/DeepScale/SqueezeNet), but optimized for computation on the FPGA and improved in terms of accuracy.
+ZynqNet CNN is derived from [SqueezeNet](https://github.com/DeepScale/SqueezeNet), but optimized in terms of computational complexity and accuracy, and ideally tailored to the [ZynqNet FPGA Accelerator](https://github.com/dgschwend/zynqnet/tree/master/_HLS_CODE).
 
 <img src="https://raw.githubusercontent.com/dgschwend/zynqnet/master/_TRAINED_MODEL/topology_comparison.png" width="606">
 
