@@ -15,7 +15,11 @@ The final report can be found in "zynqnet_report.pdf"
 The fully trained CNN with .prototxt network description and pretrained weights can be found under "_TRAINED_MODEL"
 
 ## ZynqNet FPGA Accelerator: High-Level synthesis source code for FPGA accelerator
-The C/C++ source code for building the FPGA accelerator using High-Level Synthesis (Vivado HLS) can be found under "_HLS_CODE", the compiled accelerator bitstream under "_BITSTREAM", the firmware for the Zynq XC-7Z045 ARM processors under "_FIRMWARE".
+The C/C++ source code for building the FPGA accelerator using High-Level Synthesis (Vivado HLS) can be found under "_HLS_CODE".
+
+The compiled accelerator bitstream can be found under "_BITSTREAM".
+
+The firmware for the Zynq XC-7Z045 ARM processors is stored under "_FIRMWARE".
 
 ## Netscope CNN Analyzer
 The CNN analysis tool can be found in a separate repository here: [dgschwend/netscope](https://github.com/dgschwend/netscope)
