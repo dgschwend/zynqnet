@@ -2,7 +2,15 @@
 
 This repository contains the results from my Master Thesis.
 
-![Top-Level Overview of the Master Thesis](https://github.com/dgschwend/zynqnet/raw/master/toplevel_project_overview.jpg)
+<img src="https://github.com/dgschwend/zynqnet/raw/master/toplevel_project_overview.jpg" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="3028, 343, 3850, 725" href="https://github.com/dgschwend/zynqnet/tree/master/_BITSTREAM" />
+    <area shape="rect" coords="3033, 737, 3853, 1144" href="https://github.com/dgschwend/zynqnet/tree/master/_FIRMWARE" />
+    <area shape="rect" coords="1822, 195, 2432, 597" href="https://github.com/dgschwend/zynqnet/tree/master/_HLS_CODE" />
+    <area shape="rect" coords="84, 988, 949, 1417" href="https://github.com/dgschwend/zynqnet/tree/master/_TRAINED_MODEL" />
+    <area shape="rect" coords="41, 465, 443, 982" href="https://github.com/dgschwend/zynqnet/tree/master/zynqnet%20cnn" />
+    <area shape="rect" coords="452, 45, 938, 706" href="http://dgschwend.github.io/netscope/#/preset/zynqnet" />
+</map>
 
 The project has been enabled and supported by [Supercomputing Systems AG](http://www.scs.ch).
 
