@@ -2,6 +2,7 @@
 
 This repository contains the results from my Master Thesis.
 
+* [Master Thesis Project Report](https://github.com/dgschwend/zynqnet/blob/master/zynqnet_report.pdf)
 * [ZynqNet CNN](https://github.com/dgschwend/zynqnet/tree/master/_TRAINED_MODEL)
 * [CNN Topology Exploration](https://github.com/dgschwend/zynqnet/tree/master/zynqnet%20cnn)
 * [ZynqNet FPGA Accelerator](https://github.com/dgschwend/zynqnet/tree/master/_HLS_CODE)
