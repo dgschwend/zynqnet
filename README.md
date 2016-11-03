@@ -2,10 +2,10 @@
 
 This repository contains the results from my Master Thesis.
 
-* [Master Thesis Project Report](https://github.com/dgschwend/zynqnet/blob/master/zynqnet_report.pdf)
-* [ZynqNet CNN](https://github.com/dgschwend/zynqnet/tree/master/_TRAINED_MODEL)
+* [Master Thesis Project Report (PDF)](https://github.com/dgschwend/zynqnet/blob/master/zynqnet_report.pdf)
+* [ZynqNet CNN (prototxt)](https://github.com/dgschwend/zynqnet/tree/master/_TRAINED_MODEL)
 * [CNN Topology Exploration](https://github.com/dgschwend/zynqnet/tree/master/zynqnet%20cnn)
-* [ZynqNet FPGA Accelerator](https://github.com/dgschwend/zynqnet/tree/master/_HLS_CODE)
+* [ZynqNet FPGA Accelerator (HLS C++)](https://github.com/dgschwend/zynqnet/tree/master/_HLS_CODE)
 * [ZynqNet Low-Level Firmware](https://github.com/dgschwend/zynqnet/tree/master/_FIRMWARE)
 * [Netscope CNN Analyzer](http://dgschwend.github.io/netscope/#/preset/zynqnet)
 
