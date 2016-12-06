@@ -56,7 +56,7 @@ volatile u32* map_SHARED_DRAM(off_t base_addr) {
   base_addr &= ~(getpagesize() - 1);
 
   // Open /dev/mem file (need root privileges or setuid!)
-  int SHARED_DRAM_FD = open("/dev/mem", O_RDWR);
+  SHARED_DRAM_FD = open("/dev/mem", O_RDWR);
   if (SHARED_DRAM_FD < 0) err(errno, "could not open /dev/mem. need to be root");
 
   // Map SHARED_DRAM memory region to pointer
