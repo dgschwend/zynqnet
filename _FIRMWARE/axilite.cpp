@@ -8,7 +8,7 @@ volatile u32* map_axilite_bus(off_t base_addr) {
   base_addr &= ~(getpagesize() - 1);
 
   // Open /dev/mem file (need root privileges or setuid!)
-  int AXILITE_FD = open("/dev/mem", O_RDWR);
+  AXILITE_FD = open("/dev/mem", O_RDWR);
   if (AXILITE_FD < 0) err(errno, "could not open /dev/mem. need to be root");
 
   // Map AXILITE memory region to pointer
