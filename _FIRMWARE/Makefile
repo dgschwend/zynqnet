@@ -15,14 +15,14 @@ run: compileandlink
 	-./test.exe
 
 loadbit: 
-	#Load Bitstream
+#Load Bitstream
 	loadbit ./cnn_on_fpga_200MHz.bit
-	#Set AXI HP0 to 32bit
+#Set AXI HP0 to 32bit
 	axi_hp_config 0 32
 	
 debug: CFLAGS += -DEBUG
 debug: compileandlink
-	#cp $(NETWORK)/indata.bin indata.bin
+#cp $(NETWORK)/indata.bin indata.bin
 	./test 2>&1 | tee test.out
 
 clean:
@@ -35,8 +35,8 @@ clean:
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 compileandlink: $(OBJS)
-	# copy weights binary from network to root directory
-	#cp $(NETWORK)/weights.bin weights.bin
+#copy weights binary from network to root directory
+#cp $(NETWORK)/weights.bin weights.bin
 	$(CC) -o test $^ $(CFLAGS)
 
 .PHONY: all test clean run debug loadbit

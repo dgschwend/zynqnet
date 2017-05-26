@@ -27,11 +27,11 @@ void fpga_top(layer_t layer, data_t *SHARED_DRAM, unsigned int weights_offset,
               weightaddr_t num_weights, unsigned int input_offset) {
 #pragma HLS INTERFACE m_axi depth = DRAM_DEPTH port = SHARED_DRAM offset = \
     slave bundle = memorybus register
-#pragma HLS INTERFACE s_axilite port = layer bundle = axilite  register
-#pragma HLS INTERFACE s_axilite port = num_weights bundle = axilite  register
-#pragma HLS INTERFACE s_axilite port = weights_offset bundle = axilite  register
-#pragma HLS INTERFACE s_axilite port = input_offset bundle = axilite  register
-#pragma HLS INTERFACE s_axilite port = return bundle = axilite  register
+#pragma HLS INTERFACE s_axilite bundle = axilite port = layer register
+#pragma HLS INTERFACE s_axilite bundle = axilite port = num_weights register
+#pragma HLS INTERFACE s_axilite bundle = axilite port = weights_offset register
+#pragma HLS INTERFACE s_axilite bundle = axilite port = input_offset register
+#pragma HLS INTERFACE s_axilite bundle = axilite port = return register
 
   printf("FPGA: Computing ");
   LOG_LEVEL_INCR;
@@ -224,10 +224,10 @@ L_Y:
   nbytes = layer.channels_out * layer.width * layer.height /
            (layer.stride * layer.stride) * sizeof(data_t);
   if (layer.is_first_split_layer | layer.is_second_split_layer) nbytes *= 2;
-  
+
   int startaddr = input_offset + layer.mem_addr_output;
   if (layer.is_second_split_layer) startaddr -= layer.channels_out;
-         
+
   fwrite(&SHARED_DRAM[startaddr], sizeof(char), nbytes, outfile);
   fclose(outfile);
 
@@ -242,4 +242,3 @@ L_Y:
 #endif
 #endif
 }
-
